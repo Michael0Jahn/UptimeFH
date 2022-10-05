@@ -15,5 +15,11 @@ public class UptimeController {
         return minutesofMonth * defineupttimeInPercent; // uptime in minutes
     }
 
+    public double calculateUptimeInHours(@RequestParam double relative){
+        double hoursofMonth = 24*30;
+        double defineupttimeInPercent = relative / 100;
+
+        return hoursofMonth * defineupttimeInPercent; // uptime in hours
+    }
 
 }
