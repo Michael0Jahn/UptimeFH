@@ -21,5 +21,7 @@ public class UptimeController {
 
         return hoursofMonth * defineupttimeInPercent; // uptime in hours
     }
-
 }
+
+
+
