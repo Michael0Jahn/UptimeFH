@@ -12,7 +12,7 @@ class UptimeControllerTest {
         var controller = new UptimeController();
 
         // A - Act (Test ausführen, d.h die Methode mit Testdaten ausführen
-        var result = controller.calculateUptimeInHours(0.0);
+        var result = controller.calculateUptimeminutes(0.0);
 
         // A - Assert ( Vergleichen, ob das Ergebnis der Erwartung entspricht)
         assertEquals(0.0, result);
