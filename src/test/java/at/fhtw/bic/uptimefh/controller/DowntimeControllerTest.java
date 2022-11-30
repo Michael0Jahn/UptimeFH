@@ -30,7 +30,8 @@ public class DowntimeControllerTest {
             double result = controller.calculateDowntimeMinutes(-10);
         });
     }
-//Kommentar
+//Kommentar2231
+
     @Test
     public void calculateDowntimeMinutes_whenGreaterthan100() {
         // Arrange
